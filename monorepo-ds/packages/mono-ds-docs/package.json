@@ -1,0 +1,24 @@
+{
+  "name": "mono-ds-docs",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "main": "src/index.js",
+  "scripts": {
+    "storybook": "start-storybook",
+    "docs:dev": "npm run storybook",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tiago Lima <tiago.lima@osf.digital>",
+  "license": "ISC",
+  "dependencies": {
+    "mono-ds-components": "^0.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.5",
+    "@storybook/react": "^6.2.9",
+    "babel-loader": "^8.2.2"
+  }
+}

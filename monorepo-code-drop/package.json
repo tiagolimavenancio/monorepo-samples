@@ -1,0 +1,24 @@
+{
+  "name": "monorepo-code-drop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "packages/shared/*"
+    ]
+  },
+  "author": "Tiago Lima <tiagolimavenancio@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@monorepo/eslint-config": "*",
+    "@types/jest": "^27.0.2",
+    "jest": "^27.2.3",
+    "ts-jest": "^27.0.5",
+    "typescript": "^3.9.7"
+  }
+}
